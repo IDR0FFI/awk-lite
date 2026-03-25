@@ -23,6 +23,8 @@ typedef struct {
     rmDelimEnd(str, chr);			\
 } while (0)
 
+#define isNullString(str) cmpString(str, (String){0, 0})
+
 String fromCSTR		(const char* data);
 String subString	(String src, int start, int end);   // Inclusive
 void rmDelimStart	(String str, const char* chr);
