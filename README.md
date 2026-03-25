@@ -1,4 +1,4 @@
-# awk-lite
+# awk-lite(*)
 
 A similar lite(*partial implementation) version clone of awk program for fun.
 
